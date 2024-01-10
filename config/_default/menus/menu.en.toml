@@ -4,9 +4,13 @@
   weight = -110
 
 [[main]]
-  name = "Archives"
+  name = "Videos"
   url = "post/rich-content/"
-  weight = -109
+  weight = -105
+[[main]]
+  name = "What is LEAP?"
+  url = "post/starting-a-project/"
+  weight = -107
 
 # Submenus are done this way: parent -> identifier
 [[main]]
@@ -15,15 +19,19 @@
   weight = -108
 [[main]]
   parent = "Links"
+  name = "Github"
+  url = "https://github.com/CyrusDS"
+[[main]]
+  parent = "Links"
   name = "LinkedIn"
-  url = "https://www.linkedin.com/"
+  url = "https://www.linkedin.com/in/cyrus-sowdaey-963271166/"
 [[main]]
   parent = "Links"
   name = "Twitter"
   url = "https://twitter.com/"
 
 [[main]]
-  name = "About"
+  name = "About Me"
   url = "about/"
   weight = -107
 
@@ -33,15 +41,15 @@
   name = "github"
   type = "social"
   weight = 1
-  url = "https://github.com/#"
+  url = "https://github.com/CyrusDS"
 [[social]]
   name = "twitter"
   weight = 2
-  url = "https://twitter.com/#"
+  url = "https://twitter.com/CyrusDS"
 [[social]]
   name = "linkedin"
   weight = 3
-  url = "https://www.linkedin.com/in/#"
+  url = "https://www.linkedin.com/in/cyrus-sowdaey-963271166/"
 [[social]]
   name = "rss"
   weight = 4

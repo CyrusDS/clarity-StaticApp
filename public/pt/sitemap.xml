@@ -2,149 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/pt/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>https://ashy-moss-0dd87df10.4.azurestaticapps.net/pt/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/categories/"
+                href="https://ashy-moss-0dd87df10.4.azurestaticapps.net/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/categories/"
+                href="https://ashy-moss-0dd87df10.4.azurestaticapps.net/pt/categories/"
                 />
   </url><url>
-    <loc>https://example.com/pt/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>https://ashy-moss-0dd87df10.4.azurestaticapps.net/pt/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/"
+                href="https://ashy-moss-0dd87df10.4.azurestaticapps.net/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/"
+                href="https://ashy-moss-0dd87df10.4.azurestaticapps.net/pt/"
                 />
   </url><url>
-    <loc>https://example.com/pt/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>https://ashy-moss-0dd87df10.4.azurestaticapps.net/pt/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/css/"
+                href="https://ashy-moss-0dd87df10.4.azurestaticapps.net/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/tags/css/"
+                href="https://ashy-moss-0dd87df10.4.azurestaticapps.net/pt/series/"
                 />
   </url><url>
-    <loc>https://example.com/pt/tags/destacado/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/pt/post/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>https://ashy-moss-0dd87df10.4.azurestaticapps.net/pt/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/post/markdown-syntax/"
+                href="https://ashy-moss-0dd87df10.4.azurestaticapps.net/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/post/markdown-syntax/"
-                />
-  </url><url>
-    <loc>https://example.com/pt/series/guia-de-temas/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/pt/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/tags/html/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://example.com/pt/tags/html/"
-                />
-  </url><url>
-    <loc>https://example.com/pt/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://example.com/pt/tags/markdown/"
-                />
-  </url><url>
-    <loc>https://example.com/pt/post/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://example.com/pt/post/"
-                />
-  </url><url>
-    <loc>https://example.com/pt/series/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://example.com/pt/series/"
-                />
-  </url><url>
-    <loc>https://example.com/pt/categories/sintaxe/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/pt/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://example.com/pt/tags/"
-                />
-  </url><url>
-    <loc>https://example.com/pt/tags/temas/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/pt/categories/temas/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/pt/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://example.com/pt/about/"
+                href="https://ashy-moss-0dd87df10.4.azurestaticapps.net/pt/tags/"
                 />
   </url>
 </urlset>

@@ -1,25 +1,21 @@
 +++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+title = "Who am I?"
+description = "Cyrus Sowdaey"
+date = "2024-01-08"
+aliases = ["about-me", "contact"]
+author = "Cyrus Sowdaey"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+<!-- ![::img-small](/images/author.png) -->
+<img src="/images/author.png" alt="A visit to Seattle in 2023 💕" align="left" width="400" style="margin-right: 30px"/>
+Systems Design, Plants, and having Computers do things for you are three things I love! Why not have all at once?
 
-Hugo makes use of a variety of open source projects including:
+\n
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+I have many pleasures and enjoyments, but challenging myself to do things that allow me to grow further as a learner and person, as well as documenting my learning experiences are a few that tend to stand out to me! 
+\
+I also love to spend time exploring in nature, as well as relaxing with my goofball of a pooch!
+\
+\
+<img src="/images/pup.png" align="right" width="200" style="margin-right: 30px"/>
+Pictured here is my sweet dear Celeste! 

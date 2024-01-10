@@ -2,7 +2,7 @@
 # if you set it to "/" share icons won't work properly on production
 baseurl = "https://ashy-moss-0dd87df10.4.azurestaticapps.net/"  # Include trailing slash
 # title = "Clarity"  # Edit directly from config/_default/languages.toml # alternatively, uncomment this and remove `title` entry from the aforemention file.
-copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
+copyright = "© 2023–2024 Cyrus Sowdaey; MIT License"
 # canonifyurls = true
 paginate = 10
 theme = "hugo-clarity"

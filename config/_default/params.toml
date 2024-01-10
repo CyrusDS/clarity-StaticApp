@@ -2,12 +2,12 @@
 enableSearch = true
 
 # socials
-twitter = "@janedoe"
+twitter = "@CyrusDS"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Technologist, perpetual student, teacher, continual incremental improvement."
+introDescription = "Electrical + Computer Eng. with a CSCI Minor. Working on tackling a little bit of everything through automating Paludariums and more!"
 # introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 # description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
-# keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
+keywords = ["RTOS", "embedded systems", "blog", "system design"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
 
 # showShare = false # Uncomment to not show share buttons on each post. Also available in each post's front matter.
 
@@ -55,19 +55,19 @@ fallBackOgImage = "images/thumbnail.png"
 logo = "logos/logo.png"
 
 # center logo on navbar
-centerLogo = false # Set to "true" for centering or "false" for left aligned.
+centerLogo = true # Set to "true" for centering or "false" for left aligned.
 
 # sets the maximum number of lines per codeblock. The codeblock will however be scrollable and expandable.
 codeMaxLines = 7
 
 # disable showing line numbers by default. Switch to `true` if you'd rather have them on.
-codeLineNumbers = false
+codeLineNumbers = true
 
 # enable math notation. Switch to `true` to enable mathjax in your site.
 enableMathNotation = false
 
 # directory(s) where your articles are located
-mainSections = ["post"] # see config details here https://gohugo.io/functions/where/#mainsections
+mainSections = ["post", "leap"] # see config details here https://gohugo.io/functions/where/#mainsections
 
 # Label Non inline images on an article body
 figurePositionShow = false # toggle on or off globally
@@ -88,7 +88,7 @@ enforceLightMode = false
 
 # customize footer icon. see issue https://github.com/chipzoller/hugo-clarity/issues/77
 # footerLogo = "icons/copy.svg"
-
+footerLogo = "images/MiniLogo.png"
 # Customize Sidebar Disclaimer Text
 # sidebardisclaimer = true
 # disclaimerText = "The opinions expressed on this site are my own personal opinions and do not represent my employer’s view in any way."
@@ -127,16 +127,16 @@ languageMenuName = "🌐"
 
 # The year when ths website was created, this value is used in the copyright
 # notice of the footer.
-# since = 2016
+ since = 2024
 
 # Show related content at the end of an article based on the 'series' taxonomy. Can be set in post front matter.
-# showRelatedInArticle = false
-# showRelatedInSidebar = false
+ showRelatedInArticle = true
+ showRelatedInSidebar = true
 
 # website author
 [author]
-name = "Jane Doe"
-# photo = "images/jane-doe.png" #include this if you would like to show the author photo on the sidebar
+name = "Cyrus Sowdaey"
+photo = "images/author2.png" #include this if you would like to show the author photo on the sidebar
 
 [plausible_analytics]
 enable = false # to enable plausible analytics set to true.

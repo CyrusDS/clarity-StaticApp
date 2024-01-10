@@ -3,6 +3,7 @@ author: Hugo Authors
 title: Using Notices
 date: 2021-08-20
 description: Using Notices functionality within this theme
+draft: true # Sets whether to render this page. 
 ---
 
 The "Notices" shortcode enables you to call out pieces of information - sidebars, warnings, tips, etc.
