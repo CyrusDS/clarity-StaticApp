@@ -20,5 +20,8 @@ category = "categories"
 tag = "tags"
 series = "series"
 
+[params]
+customCSS = ["css/custom.css"] # Include custom CSS files
+
 [outputs]
 home = ["HTML", "RSS", "JSON"]
