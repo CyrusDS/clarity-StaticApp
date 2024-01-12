@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Curious Cyrus</title>
-    <link>https://ashy-moss-0dd87df10.4.azurestaticapps.net/tags/</link>
+    <link>https://curiouscyrus.me/tags/</link>
     <description>Recent content in Tags on Curious Cyrus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2023–2024 Cyrus Sowdaey; MIT License</copyright>
-    <lastBuildDate>Mon, 08 Jan 2024 15:51:55 -0500</lastBuildDate><atom:link href="https://ashy-moss-0dd87df10.4.azurestaticapps.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Cyrus Sowdaey; MIT License</copyright>
+    <lastBuildDate>Mon, 08 Jan 2024 15:51:55 -0500</lastBuildDate><atom:link href="https://curiouscyrus.me/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

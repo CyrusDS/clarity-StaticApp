@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Curious Cyrus</title>
-    <link>https://ashy-moss-0dd87df10.4.azurestaticapps.net/series/</link>
+    <link>https://curiouscyrus.me/series/</link>
     <description>Recent content in Series on Curious Cyrus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2023–2024 Cyrus Sowdaey; MIT License</copyright><atom:link href="https://ashy-moss-0dd87df10.4.azurestaticapps.net/series/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Cyrus Sowdaey; MIT License</copyright><atom:link href="https://curiouscyrus.me/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
