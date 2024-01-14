@@ -87,12 +87,48 @@ I find this method to provide greater customization, and also found it to be fai
 
 Technically, this is the menu in English, since Clarity provides support for language switching. Sadly, I'm not a polyglot, and my French is a bit rusty so I am not using this feature 😅
 
-There are plenty more customizations I made to adapt the base Clarity theme to my goals and intents, including adding a CSS override file to change the background colors when building the site, which is output to the *public/* folder
+There are plenty more customizations I made to adapt the base Clarity theme to my goals and intents, including adding a CSS override file to change the background colors when building the site, which is output to the *public/* folder. See that [here](https://github.com/CyrusDS/clarity-StaticApp/blob/main/assets/sass/_override.sass) 
 
 ## Choosing a Hosting Method - Microsoft Azure: Cloud Computing
+Next, to actually get the Website to be Live, we need a method of hosting. I decided to go with Azure, as I have some experience with Microsoft's Cloud hosting service, and they also offer free subscription plans for lighter workloads and non-business use - perfectly appropriate for this application!
+
+Azure offers a significant amount of resource creation options, including one to create a [Static Web App](https://docs.microsoft.com/en-us/azure/static-web-apps/publish-hugo). 
 
 ## Github Workflow and CI/CD
+<img src="/images/CICDWorkflow.png" align="Center" width="850" style="margin-right: 30px"/>
+
+When setting up the Static Web App, there are options to link a Github account and enable link the repository for your static web app to. In addition to that, there is also a Build Preset Option that allows you to select a premade workflow for Hugo. Once this is done, any updates to the _main_ branch of the repository will result in Github running a workflow and upon succesful completion, the website is automatically redeployed through Azure. 
+* More info on the [Build Configuration](https://learn.microsoft.com/en-us/azure/static-web-apps/build-configuration?tabs=github-actions) here
+
+For me, this simplifies updating the live site versus making edits to my local page, and allows me to more quickly and rapidly make changes, such as adding new posts, updating page elements, and beyond.
+
+The entire process is a matter of checking in any new or changed files, adding a commit message, pushing through git, then waiting a few minutes! Here's what it all looks like
+
+```
+  git add .
+  git commit -m "Added Trials and Tribulations of Web Hosting post"
+  git push
+```
+Then we hop over to github, wait for build completion,
+<img src="/images/GithubActions.PNG" align="Center" width="850" style="margin-right: 30px"/>
+<img src="/images/HostedSite.PNG" align="Center" width="850" style="margin-right: 30px"/>
+
+And now the site is up and hosted on my Domain! Well, actually, it's hosted on the Azure auto-generated URL, which I've re-pointed to the https://curiouscyrus.me domain that I purchased (on a yearly subscription) through squarespace and subsequently mapped. See how I did that next!
 
 ## Purchasing and Using a Domain
+I purchased my domain from squarespace [here](https://domains.squarespace.com/) here. Once that was done, it was a matter of navigating to the Custom Domains tab in Azure, and following the steps to 
+<img src="/images/DNS-Settings.png" align="Center" width="1150" style="margin-right: 30px"/>
+<img src="/images/CustomDomains.png" align="Center" width="1150" style="margin-right: 30px"/>
+
+Setting this part of was actually fairly simple, and was a matter of waiting for the Validation to pass and a green check mark to pop up ✅
+For more detailed info, check Microsoft's official [resource](https://learn.microsoft.com/en-us/azure/static-web-apps/custom-domain)
 
 ## Google Analytics and More
+
+One of the last things I wanted to implement early on with the Website was a method of tracking the Analytics and viewer statistics of the website. The Hugo Clarity theme supports this integration fairly easily within the _params.toml_ once you have acquired your analytics ID. I had to create an Analytics account, add the https://curiouscyrus.me website, and followed a few more easy steps.
+```
+# Google analytics Id
+ga_analytics = "G-MY7YCM38VS"
+```
+Once this was done, I was able to start collecting web traffic and viewing it. Below you can see the first bit of traffic, from myself!
+<img src="/images/GoogleAnalytics.PNG" align="Center" width="1150" style="margin-right: 30px"/>
