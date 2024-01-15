@@ -9,6 +9,7 @@ shareImage: "/images/LEAPs-thumbnail.PNG" # Designate a separate image for socia
 toc: false
 figurePositionShow: true # Override global value for showing the figure label.
 tags:
+  - LEAP
   - blogging
 ---
 <img src="/images/ESP32.png" align="Center" width="850" style="margin-right: 30px"/>

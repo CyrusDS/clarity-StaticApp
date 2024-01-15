@@ -12,12 +12,16 @@ tags:
   - Web-dev
   - Azure
   - Cloud
+  - DNS
+  - Analytics
   - blogging
 ---
-## Intro: {style=text-align:center}
+<!-- ## Intro: {style=text-align:center} -->
+{{% notice info "Info:" %}}
 This post details the process I went through while working on this Blog website and ultimately hosting it here at https://curiouscyrus.me/
 
 For more information on why this blog exists, and the content on it, see [What is LEAP?](https://curiouscyrus.me/post/starting-a-project/) You can also find the accompanying public repository for my Web app [here](https://github.com/CyrusDS/clarity-StaticApp) as well! 
+{{% /notice %}}
 
 ## Deciding on the Type of Website {style=text-align:center}
 One of the first steps on my Website creation adventure was to determine the type of website that would be suited for my specific application. For this Website, I wanted a blog-style interface which would allow sufficient customization with site organization while also keeping things simple in terms of adding new content to the Website

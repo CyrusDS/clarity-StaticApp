@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>brainstorming on Curious Cyrus</title>
+    <link>https://curiouscyrus.me/tags/brainstorming/</link>
+    <description>Recent content in brainstorming on Curious Cyrus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Cyrus Sowdaey; MIT License</copyright>
+    <lastBuildDate>Sun, 14 Jan 2024 15:51:55 -0500</lastBuildDate><atom:link href="https://curiouscyrus.me/tags/brainstorming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brainstorming LEAP&#39;s Features</title>
+      <link>https://curiouscyrus.me/post/brainstorming/</link>
+      <pubDate>Sun, 14 Jan 2024 15:51:55 -0500</pubDate>
+      
+      <guid>https://curiouscyrus.me/post/brainstorming/</guid>
+      <description>
+        
+          
+            Intro - Defining Components of LEAP: This post details the process I went through while working on the initial planning of the Paludarium, to organize and sort the possible scope of the Living Ecosystem Automation Project.
+This was one of the first times I used a Mind map, but I found it to help sort some ideas I had previously written down, but did not have collected in any meaningful matter to share.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

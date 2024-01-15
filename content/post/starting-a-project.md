@@ -9,6 +9,7 @@ shareImage: "/images/starting-thumbnail.png" # Designate a separate image for so
 toc: false
 figurePositionShow: true # Override global value for showing the figure label.
 tags:
+  - LEAP
   - blogging
   - web dev
   - first
@@ -43,4 +44,4 @@ Methods to determine this can vary from the precise monitoring and control of th
 
 Having such closely related but independently controlled sub-systems allows these components to be encapsulated within dedicated embedded systems that can then be controlled by an underlying master through a common communication protocol. 
 
-###### Overview last updated - 01/08/2024
+###### Overview last updated - 01/10/2024

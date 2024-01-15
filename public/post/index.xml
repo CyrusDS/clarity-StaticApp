@@ -7,7 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© Cyrus Sowdaey; MIT License</copyright>
-    <lastBuildDate>Mon, 08 Jan 2024 15:51:55 -0500</lastBuildDate><atom:link href="https://curiouscyrus.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jan 2024 15:51:55 -0500</lastBuildDate><atom:link href="https://curiouscyrus.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brainstorming LEAP&#39;s Features</title>
+      <link>https://curiouscyrus.me/post/brainstorming/</link>
+      <pubDate>Sun, 14 Jan 2024 15:51:55 -0500</pubDate>
+      
+      <guid>https://curiouscyrus.me/post/brainstorming/</guid>
+      <description>
+        
+          
+            Intro - Defining Components of LEAP: This post details the process I went through while working on the initial planning of the Paludarium, to organize and sort the possible scope of the Living Ecosystem Automation Project.
+This was one of the first times I used a Mind map, but I found it to help sort some ideas I had previously written down, but did not have collected in any meaningful matter to share.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Trials and Tribulations of Website Hosting</title>
+      <link>https://curiouscyrus.me/post/trials-and-tribulations/</link>
+      <pubDate>Sat, 13 Jan 2024 15:51:55 -0500</pubDate>
+      
+      <guid>https://curiouscyrus.me/post/trials-and-tribulations/</guid>
+      <description>
+        
+          
+            Info:This post details the process I went through while working on this Blog website and ultimately hosting it here at https://curiouscyrus.me/
+For more information on why this blog exists, and the content on it, see What is LEAP? You can also find the accompanying public repository for my Web app here as well!
+Deciding on the Type of Website One of the first steps on my Website creation adventure was to determine the type of website that would be suited for my specific application.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>When an idea becomes a plan, then a plan becomes action</title>
       <link>https://curiouscyrus.me/post/leaps/</link>
@@ -17,9 +52,9 @@
       <description>
         
           
-            Documenting a New Project Hey there, and welcome to the first blog post on Automation and Curiosities! I&#39;ve created this Website as a way to share my continued progress, experiences (good or bad), and knowledge gained while working on Automating the World!
+            Documenting a New Project: Hey there, and welcome to the first blog post on Automation and Curiosities! I&#39;ve created this Website as a way to share my continued progress, experiences (good or bad), and knowledge gained while working on Automating the World!
 Well, to be specific, the scope is actually the wonderful &amp;quot;World&amp;quot; of simulated ecosystems and environments!
-In continually advancing this large project, I aim to utilize and employ modern engineering practices in order to create a modern environment that links both the wonders of Nature, and the capabilities of Technology.
+One of my main goals with these types of posts and the content I create is to both provide knowledge to others, as well as show some of the problems I have run into, while cataloguing and providing visual supplements that aid in understanding!
           
           
         

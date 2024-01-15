@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© Cyrus Sowdaey; MIT License</copyright>
-    <lastBuildDate>Sun, 07 Jan 2024 15:51:55 -0500</lastBuildDate><atom:link href="https://curiouscyrus.me/tags/web-dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Jan 2024 15:51:55 -0500</lastBuildDate><atom:link href="https://curiouscyrus.me/tags/web-dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trials and Tribulations of Website Hosting</title>
+      <link>https://curiouscyrus.me/post/trials-and-tribulations/</link>
+      <pubDate>Sat, 13 Jan 2024 15:51:55 -0500</pubDate>
+      
+      <guid>https://curiouscyrus.me/post/trials-and-tribulations/</guid>
+      <description>
+        
+          
+            Info:This post details the process I went through while working on this Blog website and ultimately hosting it here at https://curiouscyrus.me/
+For more information on why this blog exists, and the content on it, see What is LEAP? You can also find the accompanying public repository for my Web app here as well!
+Deciding on the Type of Website One of the first steps on my Website creation adventure was to determine the type of website that would be suited for my specific application.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>LEAP - A new initiative</title>
       <link>https://curiouscyrus.me/post/starting-a-project/</link>

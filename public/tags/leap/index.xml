@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LEAP on Curious Cyrus</title>
+    <link>https://curiouscyrus.me/tags/leap/</link>
+    <description>Recent content in LEAP on Curious Cyrus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Cyrus Sowdaey; MIT License</copyright>
+    <lastBuildDate>Sun, 14 Jan 2024 15:51:55 -0500</lastBuildDate><atom:link href="https://curiouscyrus.me/tags/leap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brainstorming LEAP&#39;s Features</title>
+      <link>https://curiouscyrus.me/post/brainstorming/</link>
+      <pubDate>Sun, 14 Jan 2024 15:51:55 -0500</pubDate>
+      
+      <guid>https://curiouscyrus.me/post/brainstorming/</guid>
+      <description>
+        
+          
+            Intro - Defining Components of LEAP: This post details the process I went through while working on the initial planning of the Paludarium, to organize and sort the possible scope of the Living Ecosystem Automation Project.
+This was one of the first times I used a Mind map, but I found it to help sort some ideas I had previously written down, but did not have collected in any meaningful matter to share.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>When an idea becomes a plan, then a plan becomes action</title>
+      <link>https://curiouscyrus.me/post/leaps/</link>
+      <pubDate>Mon, 08 Jan 2024 15:51:55 -0500</pubDate>
+      
+      <guid>https://curiouscyrus.me/post/leaps/</guid>
+      <description>
+        
+          
+            Documenting a New Project: Hey there, and welcome to the first blog post on Automation and Curiosities! I&#39;ve created this Website as a way to share my continued progress, experiences (good or bad), and knowledge gained while working on Automating the World!
+Well, to be specific, the scope is actually the wonderful &amp;quot;World&amp;quot; of simulated ecosystems and environments!
+One of my main goals with these types of posts and the content I create is to both provide knowledge to others, as well as show some of the problems I have run into, while cataloguing and providing visual supplements that aid in understanding!
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>LEAP - A new initiative</title>
+      <link>https://curiouscyrus.me/post/starting-a-project/</link>
+      <pubDate>Sun, 07 Jan 2024 15:51:55 -0500</pubDate>
+      
+      <guid>https://curiouscyrus.me/post/starting-a-project/</guid>
+      <description>
+        
+          
+            So, what exactly is this?? LEAP - Living Ecosystem Automation Project LEAP is a project I have been slowly building a plan together for since as early as 09/26/2023 when looking to incorporate water and land elements in a living ecosystem, after becoming inspired by some excellently designed enclosures that other hobbyists have designed in recent years.
+Eventually, this morphed into something where I wanted to combine my skills and knowledge in Embedded Systems design with a goal of creating multiple subsystems run by specialized microcontrollers, which could vary between irrigation controls, livestreamed camera feed, humidity tracking, and much more.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
