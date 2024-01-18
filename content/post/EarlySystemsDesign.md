@@ -1,6 +1,6 @@
 ---
 title: "Designing LEAP's Early Systems Architecture" # Title of the blog post.
-date: 2024-01-14T20:51:55-05:00 # Date of post creation.
+date: 2024-01-18T11:51:55-05:00 # Date of post creation.
 description: "Beginning diagrams for the main system and some encompassed subsystems" # Description used for search engine.
 codeMaxLines: 30 # Override global value for how many lines within a code block before auto-collapsing.
 codeLineNumbers: true # Override global value for showing of line numbers within code block.
