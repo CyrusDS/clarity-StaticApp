@@ -2,12 +2,14 @@
 <!DOCTYPE html>
 <html
   lang="en"
-  data-figures=""
+  data-figures="true"
+  
+    class="page"
   
   
   >
   <head>
-<title>Categories | Curious Cyrus</title>
+<title>Designing LEAP&#39;s Early Systems Architecture | Curious Cyrus</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="Beginning diagrams for the main system and some encompassed subsystems" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:creator" content="@CyrusDS">
-<meta name="twitter:title" content="Categories" />
-<meta name="twitter:image" content="https://curiouscyrus.me/logos/logo.png"/>
-<meta property="og:url" content="https://curiouscyrus.me/categories/" />
-<meta property="og:title" content="Categories" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://curiouscyrus.me/logos/logo.png" />
+<meta name="twitter:title" content="Designing LEAP&#39;s Early Systems Architecture" />
+<meta name="twitter:image" content="https://curiouscyrus.me/images/RemoteManagementDiagram.PNG"/>
+<meta property="og:url" content="https://curiouscyrus.me/post/earlysystemsdesign/" />
+<meta property="og:title" content="Designing LEAP&#39;s Early Systems Architecture" />
+<meta property="og:description" content="Beginning diagrams for the main system and some encompassed subsystems" />
+<meta property="og:image" content="https://curiouscyrus.me/images/RemoteManagementDiagram.PNG" />
   <meta name="keywords" content="Cyrus,Cyrus Sowdaey,Automation,Paludarium,Electrical Engineering,Computer Engineering,Paludarium Automation,Automation,RTOS,Embedded systems,blog,System design" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://curiouscyrus.me/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://curiouscyrus.me/icons/favicon-32x32.png">
 <link rel="manifest" href="https://curiouscyrus.me/icons/site.webmanifest">
 
-<link rel="canonical" href="https://curiouscyrus.me/categories/">
-<link rel="alternate" type="application/rss+xml" href="https://curiouscyrus.me/categories/index.xml" title="Curious Cyrus" />
+<link rel="canonical" href="https://curiouscyrus.me/post/earlysystemsdesign/">
 
 
 
@@ -58,7 +59,7 @@
 <link rel="stylesheet" href="/css/custom.css">
   </head>
   <body
-    data-code="7"
+    data-code="30"
     data-lines="true"
     id="documentTop"
     data-lang="en"
@@ -152,23 +153,113 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-      <li>
-      </li>
-    </ul>
+  <article class="post_content">
+    <h1 class="post_title">Designing LEAP's Early Systems Architecture</h1>
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Jan 14, 2024</span>
+    <span class="post_time"> · 2 min read</span><span>&nbsp;· <a href='https://curiouscyrus.me/tags/leap/' title="LEAP" class="post_tag button button_translucent">LEAP
+        </a><a href='https://curiouscyrus.me/tags/diagramming/' title="diagramming" class="post_tag button button_translucent">diagramming
+        </a><a href='https://curiouscyrus.me/tags/system-design/' title="system design" class="post_tag button button_translucent">system design
+        </a><a href='https://curiouscyrus.me/tags/blogging/' title="blogging" class="post_tag button button_translucent">blogging
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    Share on:
+    <a href="https://twitter.com/intent/tweet?text=Designing%20LEAP%27s%20Early%20Systems%20Architecture&url=https%3a%2f%2fcuriouscyrus.me%2fpost%2fearlysystemsdesign%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fcuriouscyrus.me%2fpost%2fearlysystemsdesign%2f&t=Designing%20LEAP%27s%20Early%20Systems%20Architecture" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://curiouscyrus.me/post/earlysystemsdesign/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
   </div>
+  </span>
+  </div>
+
+      <div class="post_toc">
+        <h2>Overview</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#moving-from-the-foundation-to-the-architecture">Moving from the Foundation to the Architecture</a>
+      <ul>
+        <li><a href="#considerations-for-integration">Considerations for Integration:</a></li>
+      </ul>
+    </li>
+    <li><a href="#iterative-refinement">Iterative Refinement</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+      </div>
+    
+    <div class="post_body"><h1 id="what-does-early-systems-diagramming-look-like">What does Early Systems Diagramming look like?:</h1>
+<p>In the realm of technology and software + hardware development, this process involves creating the initial diagrams for the main system and its encompassed subsystems! These diagrams have been created from my earlier post involving the Brainstorming of <a href="https://curiouscyrus.me/post/brainstorming/">LEAP</a></p>
+<p>Further, I'd like to also delve into the significance of this phase and explore the facets involved in developing this evolving blueprint that will guide the rest of the development journey.</p>
+
+<div class="notices tip">
+    <div class="label">Tip</div>
+    <p>The Embedded Diagrams.NET can be zoomed in significantly to view any of the subsystems such as the Remote Management or Main Arbiter and Data-Link System!</p>
+
+  </div>
+
+<iframe frameborder="0" style="width:75%;height:597px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&default-zoom=500&edit=_blank&layers=1&nav=1&title=LEAP%20Systems.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1KfchA9IXp2mdNBENvxPDNk0whlplhBI4%26export%3Ddownload"></iframe>
+<h2 id="moving-from-the-foundation-to-the-architecture">Moving from the Foundation to the Architecture</h2>
+<p>When embarking on a new project, the first step is to conceptualize the main system. This involves outlining the core functionalities, identifying key components, and establishing the overall architecture.</p>
+<p>This main system diagram acts as a roadmap, providing a visual representation of how different elements will interact and function together.</p>
+<h3 id="considerations-for-integration">Considerations for Integration:</h3>
+<p>In this early design stage, some consideration is given to how different subsystems should integrate into the main system. Power requirements, Compatibility, Data flow, and Communication protocols are defined to an extent. The aim here is to create the start of a well-coordinated system that will make logical sense!</p>
+<h2 id="iterative-refinement">Iterative Refinement</h2>
+<p>It's important to also recognize that the initial design is a starting point rather than a conclusion. Iteratively improving and adjusting the diagram ensures the design will remain flexible with the project's evolving goals and requirements. Additionally, at this level there is still a level of abstraction and vagueness with respect to exactly how certain parts will function together that will get defined further as I work through milestones.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Architecting and Diagramming is a pivotal phase in any project's lifecycle. It lays the groundwork for the entire development process, providing a clear path for implementation. In navigating through the process of creating diagrams for the main system and its encompassed subsystems, I am intending to set the stage for a successful and well-orchestrated project. In the realm of design, these early systems are the blueprints that ideas into reality!</p>
+
+    </div>
+<div class="post_comments">
+  
+  
+  
+</div>
+
+
+
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='categories'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -280,9 +371,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>

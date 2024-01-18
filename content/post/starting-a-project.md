@@ -12,7 +12,6 @@ tags:
   - LEAP
   - blogging
   - web dev
-  - first
 ---
 <img src="/images/largetank.jpg" align="right" width="400" style="margin-right: 30px"/>
 

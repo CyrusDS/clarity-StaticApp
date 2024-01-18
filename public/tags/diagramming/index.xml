@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>diagramming on Curious Cyrus</title>
+    <link>https://curiouscyrus.me/tags/diagramming/</link>
+    <description>Recent content in diagramming on Curious Cyrus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Cyrus Sowdaey; MIT License</copyright>
+    <lastBuildDate>Sun, 14 Jan 2024 20:51:55 -0500</lastBuildDate><atom:link href="https://curiouscyrus.me/tags/diagramming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Designing LEAP&#39;s Early Systems Architecture</title>
+      <link>https://curiouscyrus.me/post/earlysystemsdesign/</link>
+      <pubDate>Sun, 14 Jan 2024 20:51:55 -0500</pubDate>
+      
+      <guid>https://curiouscyrus.me/post/earlysystemsdesign/</guid>
+      <description>
+        
+          
+            What does Early Systems Diagramming look like?: In the realm of technology and software + hardware development, this process involves creating the initial diagrams for the main system and its encompassed subsystems! These diagrams have been created from my earlier post involving the Brainstorming of LEAP
+Further, I&#39;d like to also delve into the significance of this phase and explore the facets involved in developing this evolving blueprint that will guide the rest of the development journey.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

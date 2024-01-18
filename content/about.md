@@ -14,11 +14,11 @@ Systems Design, Plants, and having Computers do things for you are three things 
 
 Besides working in IT Systems Administration for my University while working towards my degree, I most recently worked with NVMe SSD Storage Systems, writing Embedded C Firmware on RTOS platforms, and making FPGA system design modifications using Xilinx Products. 
 
-###### At the moment, I'm looking toward new opportunities!
+###### At the moment, I'm looking toward new opportunities! Contact me at my [email](mailto:cyrus.sowdaey@gmail.com)  
 
 The first time I became captivated by computers while in the 7th grade attending a STEM Middle School, where I took an entry level programming course that also exposed me to the world of Microcontrollers! (in the form of Arduino, a simplified version of C++)
 
-<img src="/images/Arduino_logo_round.png" align="center" width="200" style="margin-right: 30px"/>
+<img src="/images/Microcontroller.jpg" align="center" width="400" style="margin-right: 30px"/>
 
 Being able to create a device that was equipped with a number of digital and analog sensors that could interact with the external world and then translate that to numbers which a computer could interpret was, AND still is incredible to me! Not to mention, also reprogrammable on-the-fly?!
 
