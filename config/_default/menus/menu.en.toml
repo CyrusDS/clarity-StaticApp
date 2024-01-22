@@ -19,16 +19,16 @@
   weight = -108
 [[main]]
   parent = "Links"
-  name = "Github"
-  url = "https://github.com/CyrusDS"
+  name = "Paludarium Dashboard (Not currently Public)"
+  url = ""
 [[main]]
   parent = "Links"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/in/cyrus-sowdaey-963271166/"
+  name = "Paludarium Livestream (W.I.P)"
+  url = ""
 [[main]]
   parent = "Links"
-  name = "Twitter"
-  url = "https://twitter.com/"
+  name = "Fight Hunger!"
+  url = "https://hungerfreecolorado.org/"
 
 [[main]]
   name = "About Me"
