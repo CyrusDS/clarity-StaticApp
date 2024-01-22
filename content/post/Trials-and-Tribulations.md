@@ -12,13 +12,14 @@ tags:
   - Web-dev
   - Azure
   - Cloud
+  - CI/CD
   - DNS
   - Analytics
   - blogging
 ---
 <!-- ## Intro: {style=text-align:center} -->
 {{% notice info "Info:" %}}
-This post details the process I went through while working on this Blog website and ultimately hosting it here at https://curiouscyrus.me/
+This post details the process I went through while working on this Blog website and ultimately hosting it here at https://curiouscyrus.me/ which is hosted through an Azure Static Web App and Deployed using a Github Actions CI/CD workflow.
 
 For more information on why this blog exists, and the content on it, see [What is LEAP?](https://curiouscyrus.me/post/starting-a-project/) You can also find the accompanying public repository for my Web app [here](https://github.com/CyrusDS/clarity-StaticApp) as well! 
 {{% /notice %}}

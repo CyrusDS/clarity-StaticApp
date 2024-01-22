@@ -68,9 +68,8 @@ This was one of the first times I used a Mind map, but I found it to help sort s
       <description>
         
           
-            Info:This post details the process I went through while working on this Blog website and ultimately hosting it here at https://curiouscyrus.me/
+            Info:This post details the process I went through while working on this Blog website and ultimately hosting it here at https://curiouscyrus.me/ which is hosted through an Azure Static Web App and Deployed using a Github Actions CI/CD workflow.
 For more information on why this blog exists, and the content on it, see What is LEAP? You can also find the accompanying public repository for my Web app here as well!
-Deciding on the Type of Website One of the first steps on my Website creation adventure was to determine the type of website that would be suited for my specific application.
           
           
         
