@@ -34,7 +34,11 @@ Additionally, these subsystems would be designed such that they report to an und
 
 ## Where does Automation come in?
 
-<img src="/images/systemdiagramexample.PNG" align="center" width="800" style="margin-right: 30px"/>
+<img src="/images/EcosystemHealthMonitorDiagram.PNG" alt="Example diagram of LEAP's sensing system." align="center" width="1100" style="margin-right: 30px"/>
+
+\
+
+See more of the System Diagram [Here](https://curiouscyrus.me/post/earlysystemsdesign/)
 
 In order to ensure ideal conditions that would allow the flora, fauna, as well as underlying micro-organisms to thrive, there is a significant value to automatically adjusting (our controlled) environment in response to measured biological indicators of health.
 

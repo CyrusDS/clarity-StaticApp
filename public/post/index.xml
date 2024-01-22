@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© Cyrus Sowdaey; MIT License</copyright>
-    <lastBuildDate>Thu, 18 Jan 2024 11:51:55 -0500</lastBuildDate><atom:link href="https://curiouscyrus.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jan 2024 11:51:55 -0500</lastBuildDate><atom:link href="https://curiouscyrus.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Constructing the Test and Development Environment</title>
+      <link>https://curiouscyrus.me/post/paludariumdevenvironment/</link>
+      <pubDate>Sun, 21 Jan 2024 11:51:55 -0500</pubDate>
+      
+      <guid>https://curiouscyrus.me/post/paludariumdevenvironment/</guid>
+      <description>
+        
+          
+            Introduction: Creating a dedicated test and development environment for in-development sensors and systems is crucial to avoid risks to your larger ecosystem when adding new features or testing changes. In this blog post, I&#39;ll take you through the step-by-step process of constructing a small 12 x 12 Paludarium with a spray-bar for effective testing and development.
+Acquiring the Materials Here are the main materials I used when constructing this simple background
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Designing LEAP&#39;s Early Systems Architecture</title>
       <link>https://curiouscyrus.me/post/earlysystemsdesign/</link>
