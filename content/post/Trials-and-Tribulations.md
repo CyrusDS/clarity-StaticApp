@@ -133,7 +133,7 @@ For more detailed info, check Microsoft's official [resource](https://learn.micr
 One of the last things I wanted to implement early on with the Website was a method of tracking the Analytics and viewer statistics of the website. The Hugo Clarity theme supports this integration fairly easily within the _params.toml_ once you have acquired your analytics ID. I had to create an Analytics account, add the https://curiouscyrus.me website, and followed a few more easy steps.
 ```
 # Google analytics Id
-ga_analytics = "G-MY7YCM38VS"
+ga_analytics = "G-(HIDDEN)"
 ```
 Once this was done, I was able to start collecting web traffic and viewing it. Below you can see the first bit of traffic, from myself!
 <img src="/images/GoogleAnalytics.PNG" align="Center" width="1150" style="margin-right: 30px"/>

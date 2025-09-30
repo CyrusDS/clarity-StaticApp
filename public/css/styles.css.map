@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "C:/Users/david/Documents/ClarityTheme/CuriousCyrusClarity",
+	"sourceRoot": "C:/Users/david/OneDrive/Code/ClarityTheme/CuriousCyrusClarity",
 	"sources": [
 		"themes/hugo-clarity/assets/sass/main.sass",
 		"themes/hugo-clarity/assets/sass/_variables.sass",
